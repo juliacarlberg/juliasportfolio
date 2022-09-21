@@ -1,0 +1,32 @@
+#col1{
+    background-color: blue;
+    height: 100vh;
+    text-align: center;
+}
+
+#col2{
+    background-color: greenyellow;
+    height: 100vh;
+}
+
+#headr{
+    background-color: darkblue;
+}
+
+h1{
+    color: greenyellow;
+}
+
+p{
+    color: white;
+}
+
+a{
+    color: greenyellow;
+    text-decoration: none;
+}
+
+a:hover{
+    color: white;
+    transition-duration: 0.8s;
+}
