@@ -1,32 +1,49 @@
+body{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 13pt;
+}
+
 #col1{
-    background-color: blue;
+    background-color: #9C9EFE;
     height: 100vh;
     text-align: center;
+    padding-top: 15%;
+    border: 5px dotted #AFB4FF;
 }
 
 #col2{
-    background-color: greenyellow;
+    background-color: #A66CFF;
     height: 100vh;
 }
 
 #headr{
-    background-color: darkblue;
+    background-color: #B1E1FF;
 }
 
 h1{
-    color: greenyellow;
+    color: black;
+    font-weight: bold;
 }
 
 p{
-    color: white;
+    color: black;
 }
 
 a{
-    color: greenyellow;
+    color: black;
     text-decoration: none;
+    border-right: solid #AFB4FF 2px;
+    padding: 2%;
 }
 
 a:hover{
-    color: white;
+    color: #A66CFF;
     transition-duration: 0.8s;
+}
+
+.bild1{
+    width: 60%;
+    margin-top: 20%;
+    margin-left: 20%;
+    border: 5px dotted black;
 }
