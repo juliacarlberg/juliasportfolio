@@ -5,15 +5,14 @@ body{
 
 #col1{
     background-color: #9C9EFE;
-    height: 100vh;
+    height: 80vh;
     text-align: center;
     padding-top: 15%;
-    border: 5px dotted #AFB4FF;
 }
 
 #col2{
     background-color: #A66CFF;
-    height: 100vh;
+    height: 80vh;
 }
 
 #headr{
@@ -29,7 +28,7 @@ p{
     color: black;
 }
 
-a{
+.headnav{
     color: black;
     text-decoration: none;
     border-right: solid #AFB4FF 2px;
@@ -43,7 +42,29 @@ a:hover{
 
 .bild1{
     width: 60%;
-    margin-top: 20%;
+    margin-top: 15%;
     margin-left: 20%;
     border: 5px dotted black;
+    border-radius: 50%;
+}
+
+.headr{
+    background-color: #B1E1FF;
+    margin-top: 0%;
+    padding-top: 1.5%;
+}
+
+li{
+   display: inline;
+}
+
+footer{
+    background-color: rgb(51, 50, 50);
+    padding: 2%;
+    color: white;
+    text-align: center;
+}
+
+.github{
+    color: white;
 }
