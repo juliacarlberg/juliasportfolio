@@ -5,76 +5,82 @@ body{
 
 #col1{
     background-color: #9C9EFE;
-    height: 80vh;
+    height: 85vh;
     text-align: center;
-    padding-top: 15%;
+    padding-top: 5%;
 }
 
 #col2{
     background-color: #A66CFF;
-    height: 80vh;
+    height: 85vh;
+    text-align: center;
 }
 
-#headr{
-    background-color: #B1E1FF;
-}
-
-h1{
-    color: black;
+h1, h2{
     font-weight: bold;
-}
-
-p{
-    color: black;
-}
-
-.headnav{
-    color: black;
-    text-decoration: none;
-    border-right: solid #AFB4FF 2px;
-    padding: 2%;
-}
-
-a:hover{
-    color: #A66CFF;
-    transition-duration: 0.8s;
+    padding: 5%;
+    color: white;
 }
 
 .bild1{
-    width: 60%;
+    width: 50%;
     margin-top: 15%;
-    margin-left: 20%;
     border: 5px dotted black;
     border-radius: 50%;
 }
 
-.headr{
+#headr{
     background-color: #B1E1FF;
-    margin-top: 0%;
-    padding-top: 1.5%;
-}
-
-li{
-   display: inline;
+    height: 100vh;
+    margin-top: 0;
+    padding-top: 15vh;
+    text-align: center;
+    background-image: url(../bilder/purplebg.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 footer{
     background-color: rgb(51, 50, 50);
-    padding: 5%;
+    padding: 3%;
     color: white;
     text-align: center;
 }
 
-.fa-github{
+.fa-github, .fa-brands{
     color: white;
     font-size: 20pt;
+    margin: 1%;
 }
 
-.fa-brands{
+.sec1{
+    display: inline;
     color: white;
-    font-size: 20pt;
 }
 
-.fa-duotone{
-    color: black;
+.kontaktlista{
+    background-color: rgb(51, 50, 50);
+    color: white;
+    padding: 5%;
+    border: dotted 5px black;
 }
+
+.purplep{
+    color: #A66CFF;
+}
+
+.bmoln{
+    width: 50%;
+    animation-name: flygande-moln;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    position: relative;
+}
+
+@keyframes flygande-moln {
+    0%   {left:0px;}
+    25%  {left:200px;}
+    50%  {left:0px;}
+    75%  {right:0px;}
+    100% {right:200px;}
+  }
